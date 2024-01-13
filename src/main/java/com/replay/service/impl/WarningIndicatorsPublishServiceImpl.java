@@ -1,0 +1,19 @@
+package com.replay.service.impl;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.replay.entity.WarningIndicatorsPublish;
+import com.replay.vo.WarningIndicatorsPublishVO;
+import com.replay.mapper.WarningIndicatorsPublishMapper;
+import com.replay.service.IWarningIndicatorsPublishService;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
+/**
+ * 【预警指标体系发布表】实现层
+ *
+ * @author haoxiaoming
+ * @date 2023-04-26
+ */
+@Slf4j
+@Service
+public class WarningIndicatorsPublishServiceImpl extends ServiceImpl<WarningIndicatorsPublishMapper, WarningIndicatorsPublish> implements IWarningIndicatorsPublishService {
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.datasource.mapper.CollectionItemMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.datasource.entity.CollectionItem">
+        <id column="id" property="id"/>
+        <result column="demand_code" property="demandCode"/>
+        <result column="collection_type" property="collectionType"/>
+        <result column="status" property="status"/>
+        <result column="name" property="name"/>
+        <result column="collection_content" property="collectionContent"/>
+        <result column="url" property="url"/>
+        <result column="content_type" property="contentType"/>
+        <result column="search_term" property="searchTerm"/>
+        <result column="start_time" property="startTime"/>
+        <result column="end_time" property="endTime"/>
+        <result column="frequency" property="frequency"/>
+        <result column="acquisition mode" property="acquisition mode"/>
+        <result column="handler" property="handler"/>
+        <result column="schedule_start_time" property="scheduleStartTime"/>
+        <result column="schedule_end_time" property="scheduleEndTime"/>
+        <result column="data_soure" property="dataSoure"/>
+        <result column="collection_completion_time" property="collectionCompletionTime"/>
+        <result column="remark" property="remark"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, demand_code, collection_type, status, name, collection_content, url, content_type, search_term, start_time, end_time, frequency, acquisition mode, handler, schedule_start_time, schedule_end_time, data_soure, collection_completion_time, remark, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

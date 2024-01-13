@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.aliyun.openservices:aliyun-log-logback-appender:0.1.18">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../repository/scientific/com/aliyun/openservices/aliyun-log-logback-appender/0.1.18/aliyun-log-logback-appender-0.1.18.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../repository/scientific/com/aliyun/openservices/aliyun-log-logback-appender/0.1.18/aliyun-log-logback-appender-0.1.18-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../repository/scientific/com/aliyun/openservices/aliyun-log-logback-appender/0.1.18/aliyun-log-logback-appender-0.1.18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

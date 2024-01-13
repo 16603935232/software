@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.datasource.mapper.AcquisitionDemandMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.datasource.entity.AcquisitionDemand">
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="demand_code" property="demandCode"/>
+        <result column="collect_title" property="collectTitle"/>
+        <result column="status" property="status"/>
+        <result column="assessors_id" property="assessorsId"/>
+        <result column="requirement_description" property="requirementDescription"/>
+        <result column="start_time" property="startTime"/>
+        <result column="end_time" property="endTime"/>
+        <result column="goal" property="goal"/>
+        <result column="data_source" property="dataSource"/>
+        <result column="expected_delivery_time" property="expectedDeliveryTime"/>
+        <result column="data_format" property="dataFormat"/>
+        <result column="applied_range" property="appliedRange"/>
+        <result column="other_instructions" property="otherInstructions"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, user_id, demand_code, collect_title, status, assessors_id, requirement_description, start_time, end_time, goal, data_source, expected_delivery_time, data_format, applied_range, other_instructions, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

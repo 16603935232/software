@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ai.mapper.InstitutePaperRelationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ai.entity.InstitutePaperRelation">
+        <id column="id" property="id"/>
+        <result column="institute_id" property="instituteId"/>
+        <result column="paper_id" property="paperId"/>
+        <result column="paper_code" property="paperCode"/>
+        <result column="relation_state" property="relationState"/>
+        <result column="status_online" property="statusOnline"/>
+        <result column="title" property="title"/>
+        <result column="release_time" property="releaseTime"/>
+        <result column="conference_name" property="conferenceName"/>
+        <result column="author" property="author"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, institute_id, paper_id, paper_code, relation_state, status_online, title, release_time, conference_name, author, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

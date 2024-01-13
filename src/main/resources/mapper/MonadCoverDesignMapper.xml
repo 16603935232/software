@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.content.mapper.MonadCoverDesignMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.content.entity.MonadCoverDesign">
+        <id column="id" property="id"/>
+        <result column="compilation_and_Translation" property="compilationAndTranslation"/>
+        <result column="number_of_words" property="numberOfWords"/>
+        <result column="format" property="format"/>
+        <result column="wide" property="wide"/>
+        <result column="length" property="length"/>
+        <result column="publication_time" property="publicationTime"/>
+        <result column="suggested_time" property="suggestedTime"/>
+        <result column="package_process" property="packageProcess"/>
+        <result column="matt_lamination" property="mattLamination"/>
+        <result column="flap" property="flap"/>
+        <result column="flap_width" property="flapWidth"/>
+        <result column="girdle" property="girdle"/>
+        <result column="special_process" property="specialProcess"/>
+        <result column="series" property="series"/>
+        <result column="reader_group" property="readerGroup"/>
+        <result column="nature" property="nature"/>
+        <result column="layout_color" property="layoutColor"/>
+        <result column="design_taboos" property="designTaboos"/>
+        <result column="design_units" property="designUnits"/>
+        <result column="cooperative_unit_id" property="cooperativeUnitId"/>
+        <result column="file_list" property="fileList"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, compilation_and_Translation, number_of_words, format, wide, length, publication_time, suggested_time, package_process, matt_lamination, flap, flap_width, girdle, special_process, series, reader_group, nature, layout_color, design_taboos, design_units, cooperative_unit_id, file_list, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

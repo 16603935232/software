@@ -1,0 +1,53 @@
+spring.application.name: excel-demo-service
+server.port: 8120
+
+# Sleuth Zipkin Settings
+spring.sleuth.sampler.probability: 100
+
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${mysql.host}/${mysql.database}?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: ${mysql.user.name}
+    password: ${mysql.user.password}
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss #jackson???????????????
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: false
+# mybatis plus??
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+  #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  global-config:
+    # ??????
+    db-config:
+      # ???
+      logic-not-delete-value: 1
+      # ???
+      logic-delete-value: 0
+# Actuator Settings
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always
+
+# MySQL Settings
+mysql:
+  host: localhost
+  database: excel
+  user:
+    name: root
+    password: 123456

@@ -1,0 +1,10 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: nacos‐restful‐provider
+  cloud:
+    nacos:
+      discovery:
+        server‐addr: 172.16.8.42:30848
+        namespace: shangml

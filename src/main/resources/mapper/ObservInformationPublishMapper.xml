@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.replay.mapper.ObservInformationPublishMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.replay.entity.ObservInformationPublish">
+        <id column="id" property="id"/>
+        <result column="field_id" property="fieldId"/>
+        <result column="observ_code" property="observCode"/>
+        <result column="observ_name" property="observName"/>
+        <result column="observ_content" property="observContent"/>
+        <result column="observ_indicators" property="observIndicators"/>
+        <result column="indicators_abbreviate" property="indicatorsAbbreviate"/>
+        <result column="observ_score" property="observScore"/>
+        <result column="sort" property="sort"/>
+        <result column="status_publish" property="statusPublish"/>
+        <result column="replay_id" property="replayId"/>
+        <result column="metadata_id" property="metadataId"/>
+        <result column="changed" property="changed"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, field_id, observ_code, observ_name, observ_content, observ_indicators, indicators_abbreviate, observ_score, sort, status_publish, replay_id, metadata_id, changed, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

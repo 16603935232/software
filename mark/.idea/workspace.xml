@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28e2d6f1-d325-4932-b0e6-c3c43c15846a" name="Changes" comment="文档表分页查询接口，增加查询字段创建时间">
+      <change beforePath="$PROJECT_DIR$/scientific-biz-mark/src/main/java/com/scientific/admin/mark/service/impl/LabelDefinitionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/scientific-biz-mark/src/main/java/com/scientific/admin/mark/service/impl/LabelDefinitionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scientific-mark/scientific-mark-endpoint/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scientific-mark/scientific-mark-endpoint/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scientific-mark/scientific-mark-endpoint/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scientific-mark/scientific-mark-endpoint/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/scientific-auth" value="master" />
+        <entry key="$PROJECT_DIR$/scientific-framework" value="master" />
+        <entry key="$PROJECT_DIR$/scientific-mark" value="sml" />
+        <entry key="$PROJECT_DIR$/scientific-pom-parent" value="master" />
+        <entry key="$PROJECT_DIR$/scientific-user" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/scientific-mark" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/scientific-mark/scientific-mark-core/src/main/java/com/scientific/mark/service/impl/DocumentServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\java\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Inrw9xZYiOWkZOJjE2B1FklZa0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/java/software/mark",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "问题",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "6d56111228bec3eb12f43d9ec594cb4f",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java\software\mark\scientific-mark\scientific-mark-endpoint\src\main\java\com\scientific\mark\controller\feign" />
+      <recent name="D:\java\software\mark\scientific-mark\scientific-mark-common\src\main\java\com\scientific\mark\entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
+    <configuration name="MpGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scientific.framework.core.mybatisplus.generator.MpGenerator" />
+      <module name="scientific-framework-core-mybatis-plus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scientific.framework.core.mybatisplus.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scientific.mark.controller.feign.TestController" />
+      <module name="scientific-mark-endpoint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scientific.mark.controller.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #18" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="18" requestIdentifier="#18" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="scientific-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scientific.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BizMarkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="scientific-biz-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scientific.admin.BizMarkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="scientific-cloud-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scientific.cloud.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="scientific-mark-endpoint" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scientific.mark.MarkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="scientific-user-endpoint" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scientific.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 请求.generated-requests | #18" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28e2d6f1-d325-4932-b0e6-c3c43c15846a" name="Changes" comment="" />
+      <created>1670828425262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670828425262</updated>
+      <workItem from="1670828427017" duration="19000" />
+      <workItem from="1670828571634" duration="5279000" />
+      <workItem from="1670897306425" duration="1052000" />
+      <workItem from="1670920137483" duration="700000" />
+      <workItem from="1670928666137" duration="2024000" />
+      <workItem from="1670982192224" duration="3129000" />
+      <workItem from="1670998135570" duration="797000" />
+      <workItem from="1670998950064" duration="7316000" />
+      <workItem from="1671067814810" duration="10850000" />
+      <workItem from="1671434947513" duration="3424000" />
+      <workItem from="1671535264480" duration="877000" />
+      <workItem from="1671592860843" duration="4626000" />
+      <workItem from="1671611657120" duration="7351000" />
+      <workItem from="1671626072242" duration="1030000" />
+      <workItem from="1671673088102" duration="7820000" />
+      <workItem from="1671759330933" duration="6432000" />
+      <workItem from="1671788819549" duration="3731000" />
+      <workItem from="1671809064747" duration="96000" />
+      <workItem from="1672019468604" duration="10855000" />
+      <workItem from="1672106802933" duration="3498000" />
+      <workItem from="1672136745137" duration="599000" />
+      <workItem from="1672138881933" duration="983000" />
+      <workItem from="1672293495748" duration="164000" />
+      <workItem from="1672391412219" duration="696000" />
+      <workItem from="1672711757084" duration="5903000" />
+      <workItem from="1672823811851" duration="19000" />
+      <workItem from="1672984585448" duration="29000" />
+      <workItem from="1673084845898" duration="35000" />
+      <workItem from="1673340283208" duration="43000" />
+      <workItem from="1673340615232" duration="632000" />
+      <workItem from="1673345029532" duration="7000" />
+      <workItem from="1673487450600" duration="111000" />
+      <workItem from="1673494901867" duration="1203000" />
+      <workItem from="1673602847946" duration="221000" />
+      <workItem from="1673849220091" duration="69000" />
+      <workItem from="1674115111489" duration="1523000" />
+      <workItem from="1675154023953" duration="1223000" />
+      <workItem from="1675330517790" duration="18000" />
+      <workItem from="1675907330443" duration="129000" />
+      <workItem from="1677751972272" duration="199000" />
+      <workItem from="1677821568668" duration="90000" />
+      <workItem from="1679555098898" duration="11000" />
+      <workItem from="1685698494746" duration="1601000" />
+      <workItem from="1688351917601" duration="645000" />
+      <workItem from="1688434764002" duration="2413000" />
+      <workItem from="1695285571080" duration="39000" />
+      <workItem from="1696823297054" duration="47000" />
+      <workItem from="1696994874350" duration="2795000" />
+      <workItem from="1697006485336" duration="9602000" />
+    </task>
+    <task id="LOCAL-00001" summary="文本详情上一篇下一篇查询接口，bug修改">
+      <created>1671438321953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671438321953</updated>
+    </task>
+    <task id="LOCAL-00002" summary="文档表分页查询接口，增加查询字段创建时间">
+      <created>1671595602748</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671595602748</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="文本详情上一篇下一篇查询接口，bug修改" />
+    <MESSAGE value="文档表分页查询接口，增加查询字段创建时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="文档表分页查询接口，增加查询字段创建时间" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: demo-service
+  cloud:
+    nacos:
+      server-addr:
+      discovery:
+        server-addr: 172.16.8.42:30848
+        namespace: shangml
+      config:
+        server-addr: 172.16.8.42:30848
+        namespace: shangml
+        file-extension: yml
+        shared-configs:
+            data-id: demo-service.yml
+            refresh: true

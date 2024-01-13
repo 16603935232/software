@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.content.mapper.SysDeptMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.content.entity.SysDept">
+        <id column="id" property="id"/>
+        <result column="dept_no" property="deptNo"/>
+        <result column="dept_name" property="deptName"/>
+        <result column="parent_id" property="parentId"/>
+        <result column="ancestor" property="ancestor"/>
+        <result column="level" property="level"/>
+        <result column="order_num" property="orderNum"/>
+        <result column="unit_id" property="unitId"/>
+        <result column="description" property="description"/>
+        <result column="is_selected" property="isSelected"/>
+        <result column="is_submit_sample" property="isSubmitSample"/>
+        <result column="status" property="status"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, dept_no, dept_name, parent_id, ancestor, level, order_num, unit_id, description, is_selected, is_submit_sample, status, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.replay.mapper.PredictInformationPublishMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.replay.entity.PredictInformationPublish">
+        <id column="id" property="id"/>
+        <result column="field_id" property="fieldId"/>
+        <result column="predict_code" property="predictCode"/>
+        <result column="predict_name" property="predictName"/>
+        <result column="predict_content" property="predictContent"/>
+        <result column="predict_indicators" property="predictIndicators"/>
+        <result column="indicators_abbreviate" property="indicatorsAbbreviate"/>
+        <result column="predict_score" property="predictScore"/>
+        <result column="observ_score" property="observScore"/>
+        <result column="feature_score" property="featureScore"/>
+        <result column="problem_score" property="problemScore"/>
+        <result column="military_struggle" property="militaryStruggle"/>
+        <result column="technology_compete" property="technologyCompete"/>
+        <result column="relation" property="relation"/>
+        <result column="relation_feature" property="relationFeature"/>
+        <result column="sort" property="sort"/>
+        <result column="status_publish" property="statusPublish"/>
+        <result column="replay_id" property="replayId"/>
+        <result column="metadata_id" property="metadataId"/>
+        <result column="changed" property="changed"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, field_id, predict_code, predict_name, predict_content, predict_indicators, indicators_abbreviate, predict_score, observ_score, feature_score, problem_score, military_struggle, technology_compete, relation, relation_feature, sort, status_publish, replay_id, metadata_id, changed, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

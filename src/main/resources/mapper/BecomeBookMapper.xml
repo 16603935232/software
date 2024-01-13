@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.content.mapper.BecomeBookMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.content.entity.BecomeBook">
+        <id column="id" property="id"/>
+        <result column="manuscript_id" property="manuscriptId"/>
+        <result column="row" property="row"/>
+        <result column="word" property="word"/>
+        <result column="format" property="format"/>
+        <result column="product_size_length" property="productSizeLength"/>
+        <result column="product_size_width" property="productSizeWidth"/>
+        <result column="sheet" property="sheet"/>
+        <result column="color_insert" property="colorInsert"/>
+        <result column="book_layout_word_number" property="bookLayoutWordNumber"/>
+        <result column="word_number" property="wordNumber"/>
+        <result column="joint_reviewer" property="jointReviewer"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, manuscript_id, row, word, format, product_size_length, product_size_width, sheet, color_insert, book_layout_word_number, word_number, joint_reviewer, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

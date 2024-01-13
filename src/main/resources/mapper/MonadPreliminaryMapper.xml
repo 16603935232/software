@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.content.mapper.MonadPreliminaryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.content.entity.MonadPreliminary">
+        <id column="id" property="id"/>
+        <result column="monad_id" property="monadId"/>
+        <result column="monad_type" property="monadType"/>
+        <result column="approval_ids" property="approvalIds"/>
+        <result column="manuscript_id" property="manuscriptId"/>
+        <result column="word_number" property="wordNumber"/>
+        <result column="content_characteristics" property="contentCharacteristics"/>
+        <result column="audience" property="audience"/>
+        <result column="social_and_economic_benefit_analysis" property="socialAndEconomicBenefitAnalysis"/>
+        <result column="main_problems_and_measures_solved" property="mainProblemsAndMeasuresSolved"/>
+        <result column="unresolved_issues_and_suggested_measures" property="unresolvedIssuesAndSuggestedMeasures"/>
+        <result column="quality_and_conclusion" property="qualityAndConclusion"/>
+        <result column="file_list" property="fileList"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, monad_id, monad_type, approval_ids, manuscript_id, word_number, content_characteristics, audience, social_and_economic_benefit_analysis, main_problems_and_measures_solved, unresolved_issues_and_suggested_measures, quality_and_conclusion, file_list, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

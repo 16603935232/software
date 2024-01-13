@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="scientific-framework-core-valid" />
+        <module name="scientific-framework-core-security" />
+        <module name="scientific-mark-endpoint" />
+        <module name="scientific-auth" />
+        <module name="scientific-user-common" />
+        <module name="scientific-framework-base" />
+        <module name="scientific-mark-core" />
+        <module name="scientific-framework-core-seata" />
+        <module name="scientific-framework-core-feign" />
+        <module name="scientific-framework-core-template" />
+        <module name="scientific-framework-drools-engine" />
+        <module name="scientific-mark-common" />
+        <module name="scientific-framework-core-producer" />
+        <module name="scientific-user-endpoint" />
+        <module name="scientific-user-core" />
+        <module name="scientific-mark-dal" />
+        <module name="scientific-framework-core-web" />
+        <module name="scientific-cloud-gateway" />
+        <module name="scientific-mark-api" />
+        <module name="scientific-user-dal" />
+        <module name="scientific-framework-core-cache" />
+        <module name="scientific-framework-core-elasticsearch" />
+        <module name="scientific-biz-admin" />
+        <module name="scientific-framework-core-log" />
+        <module name="scientific-framework-core-mybatis-plus" />
+        <module name="scientific-framework-core-swagger" />
+        <module name="scientific-user-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="scientific-auth" target="1.8" />
+      <module name="scientific-biz-admin" target="1.8" />
+      <module name="scientific-cloud" target="1.8" />
+      <module name="scientific-cloud-gateway" target="1.8" />
+      <module name="scientific-framework" target="1.8" />
+      <module name="scientific-framework-base" target="1.8" />
+      <module name="scientific-framework-core" target="1.8" />
+      <module name="scientific-framework-core-cache" target="1.8" />
+      <module name="scientific-framework-core-elasticsearch" target="1.8" />
+      <module name="scientific-framework-core-feign" target="1.8" />
+      <module name="scientific-framework-core-log" target="1.8" />
+      <module name="scientific-framework-core-mybatis-plus" target="1.8" />
+      <module name="scientific-framework-core-producer" target="1.8" />
+      <module name="scientific-framework-core-seata" target="1.8" />
+      <module name="scientific-framework-core-security" target="1.8" />
+      <module name="scientific-framework-core-swagger" target="1.8" />
+      <module name="scientific-framework-core-template" target="1.8" />
+      <module name="scientific-framework-core-valid" target="1.8" />
+      <module name="scientific-framework-core-web" target="1.8" />
+      <module name="scientific-framework-drools-engine" target="1.8" />
+      <module name="scientific-mark" target="1.8" />
+      <module name="scientific-mark-api" target="1.8" />
+      <module name="scientific-mark-common" target="1.8" />
+      <module name="scientific-mark-core" target="1.8" />
+      <module name="scientific-mark-dal" target="1.8" />
+      <module name="scientific-mark-endpoint" target="1.8" />
+      <module name="scientific-pom-parent" target="1.8" />
+      <module name="scientific-user" target="1.8" />
+      <module name="scientific-user-api" target="1.8" />
+      <module name="scientific-user-common" target="1.8" />
+      <module name="scientific-user-core" target="1.8" />
+      <module name="scientific-user-dal" target="1.8" />
+      <module name="scientific-user-endpoint" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

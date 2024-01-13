@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.content-backend.mapper.ManuscriptBriefMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.content-backend.entity.ManuscriptBrief">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="author" property="author"/>
+        <result column="dept_id" property="deptId"/>
+        <result column="start_time" property="startTime"/>
+        <result column="end_time" property="endTime"/>
+        <result column="planning_editor" property="planningEditor"/>
+        <result column="responsible_editor" property="responsibleEditor"/>
+        <result column="publication_number" property="publicationNumber"/>
+        <result column="topic_number" property="topicNumber"/>
+        <result column="cause_of_termination" property="causeOfTermination"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, name, author, dept_id, start_time, end_time, planning_editor, responsible_editor, publication_number, topic_number, cause_of_termination, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

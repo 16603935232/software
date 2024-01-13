@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/tool/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool/tool-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool/tool-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool/tool-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool/tool-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool/tool-dal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool/tool-dal/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool/tool-endpoint/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool/tool-endpoint/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool/tool-gen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool/tool-gen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job-admin/xxl-job-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job-admin/xxl-job-admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job-admin/xxl-job-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job-admin/xxl-job-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xxl-job-sample/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sci.mapper.DocumentQuestionsAnswersMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.sci.entity.DocumentQuestionsAnswers">
+        <id column="id" property="id"/>
+        <result column="file_name" property="fileName"/>
+        <result column="path" property="path"/>
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, file_name, path, title, content, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

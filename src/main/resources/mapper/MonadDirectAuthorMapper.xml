@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.content.mapper.MonadDirectAuthorMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.content.entity.MonadDirectAuthor">
+        <id column="id" property="id"/>
+        <result column="copies" property="copies"/>
+        <result column="receiving_author" property="receivingAuthor"/>
+        <result column="required_delivery_time" property="requiredDeliveryTime"/>
+        <result column="telephone" property="telephone"/>
+        <result column="postal_code" property="postalCode"/>
+        <result column="delivery_address" property="deliveryAddress"/>
+        <result column="buy_book_way" property="buyBookWay"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, copies, receiving_author, required_delivery_time, telephone, postal_code, delivery_address, buy_book_way, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

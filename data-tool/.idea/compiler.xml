@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="xxl-job-core" />
+        <module name="tool-endpoint" />
+        <module name="xxl-job-sample" />
+        <module name="tool-gen" />
+        <module name="tool-dal" />
+        <module name="tool-core" />
+        <module name="tool-common" />
+        <module name="xxl-job-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="data-tool" target="1.8" />
+      <module name="tool-common" target="1.8" />
+      <module name="tool-core" target="1.8" />
+      <module name="tool-dal" target="1.8" />
+      <module name="tool-endpoint" target="1.8" />
+      <module name="tool-gen" target="1.8" />
+      <module name="xxl-job" target="1.8" />
+      <module name="xxl-job-admin" target="1.8" />
+      <module name="xxl-job-core" target="1.8" />
+      <module name="xxl-job-sample" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

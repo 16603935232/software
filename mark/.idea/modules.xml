@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/mark.iml" filepath="$PROJECT_DIR$/.idea/mark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-auth/scientific-auth.iml" filepath="$PROJECT_DIR$/scientific-auth/scientific-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-biz-mark/scientific-biz-admin.iml" filepath="$PROJECT_DIR$/scientific-biz-mark/scientific-biz-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-cloud/scientific-cloud.iml" filepath="$PROJECT_DIR$/scientific-cloud/scientific-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-cloud/scientific-cloud-gateway/scientific-cloud-gateway.iml" filepath="$PROJECT_DIR$/scientific-cloud/scientific-cloud-gateway/scientific-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-base/scientific-framework-base.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-base/scientific-framework-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-cache/scientific-framework-core-cache.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-cache/scientific-framework-core-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-elasticsearch/scientific-framework-core-elasticsearch.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-elasticsearch/scientific-framework-core-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-feign/scientific-framework-core-feign.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-feign/scientific-framework-core-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-log/scientific-framework-core-log.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-log/scientific-framework-core-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-mybatis-plus/scientific-framework-core-mybatis-plus.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-mybatis-plus/scientific-framework-core-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-producer/scientific-framework-core-producer.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-producer/scientific-framework-core-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-seata/scientific-framework-core-seata.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-seata/scientific-framework-core-seata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-security/scientific-framework-core-security.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-security/scientific-framework-core-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-swagger/scientific-framework-core-swagger.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-swagger/scientific-framework-core-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-template/scientific-framework-core-template.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-template/scientific-framework-core-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-valid/scientific-framework-core-valid.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-valid/scientific-framework-core-valid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-web/scientific-framework-core-web.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-core-web/scientific-framework-core-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-drools-engine/scientific-framework-drools-engine.iml" filepath="$PROJECT_DIR$/scientific-framework/scientific-framework-core/scientific-framework-drools-engine/scientific-framework-drools-engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-mark/scientific-mark.iml" filepath="$PROJECT_DIR$/scientific-mark/scientific-mark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-mark/scientific-mark-api/scientific-mark-api.iml" filepath="$PROJECT_DIR$/scientific-mark/scientific-mark-api/scientific-mark-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-mark/scientific-mark-common/scientific-mark-common.iml" filepath="$PROJECT_DIR$/scientific-mark/scientific-mark-common/scientific-mark-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-mark/scientific-mark-core/scientific-mark-core.iml" filepath="$PROJECT_DIR$/scientific-mark/scientific-mark-core/scientific-mark-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-mark/scientific-mark-dal/scientific-mark-dal.iml" filepath="$PROJECT_DIR$/scientific-mark/scientific-mark-dal/scientific-mark-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-mark/scientific-mark-endpoint/scientific-mark-endpoint.iml" filepath="$PROJECT_DIR$/scientific-mark/scientific-mark-endpoint/scientific-mark-endpoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-pom-parent/scientific-pom-parent.iml" filepath="$PROJECT_DIR$/scientific-pom-parent/scientific-pom-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-user/scientific-user.iml" filepath="$PROJECT_DIR$/scientific-user/scientific-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-user/scientific-user-api/scientific-user-api.iml" filepath="$PROJECT_DIR$/scientific-user/scientific-user-api/scientific-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-user/scientific-user-common/scientific-user-common.iml" filepath="$PROJECT_DIR$/scientific-user/scientific-user-common/scientific-user-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-user/scientific-user-core/scientific-user-core.iml" filepath="$PROJECT_DIR$/scientific-user/scientific-user-core/scientific-user-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-user/scientific-user-dal/scientific-user-dal.iml" filepath="$PROJECT_DIR$/scientific-user/scientific-user-dal/scientific-user-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scientific-user/scientific-user-endpoint/scientific-user-endpoint.iml" filepath="$PROJECT_DIR$/scientific-user/scientific-user-endpoint/scientific-user-endpoint.iml" />
+    </modules>
+  </component>
+</project>

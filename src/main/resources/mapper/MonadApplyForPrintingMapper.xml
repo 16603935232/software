@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.content.mapper.MonadApplyForPrintingMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.content.entity.MonadApplyForPrinting">
+        <id column="id" property="id"/>
+        <result column="manuscript_id" property="manuscriptId"/>
+        <result column="enterprise_name" property="enterpriseName"/>
+        <result column="enterprise_address" property="enterpriseAddress"/>
+        <result column="edition" property="edition"/>
+        <result column="format" property="format"/>
+        <result column="word_number" property="wordNumber"/>
+        <result column="page_no" property="pageNo"/>
+        <result column="current_print_run" property="currentPrintRun"/>
+        <result column="sheet" property="sheet"/>
+        <result column="fix_price" property="fixPrice"/>
+        <result column="editor_author_translator" property="editorAuthorTranslator"/>
+        <result column="binding" property="binding"/>
+        <result column="printing_completion_time" property="printingCompletionTime"/>
+        <result column="submission_time" property="submissionTime"/>
+        <result column="contact" property="contact"/>
+        <result column="telephone" property="telephone"/>
+        <result column="textbook" property="textbook"/>
+        <result column="book_category" property="bookCategory"/>
+        <result column="file_list" property="fileList"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, manuscript_id, enterprise_name, enterprise_address, edition, format, word_number, page_no, current_print_run, sheet, fix_price, editor_author_translator, binding, printing_completion_time, submission_time, contact, telephone, textbook, book_category, file_list, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

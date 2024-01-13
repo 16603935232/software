@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tool/data-tool.iml" filepath="$PROJECT_DIR$/tool/data-tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tool/tool-common/tool-common.iml" filepath="$PROJECT_DIR$/tool/tool-common/tool-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tool/tool-core/tool-core.iml" filepath="$PROJECT_DIR$/tool/tool-core/tool-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tool/tool-dal/tool-dal.iml" filepath="$PROJECT_DIR$/tool/tool-dal/tool-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tool/tool-endpoint/tool-endpoint.iml" filepath="$PROJECT_DIR$/tool/tool-endpoint/tool-endpoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tool/tool-gen/tool-gen.iml" filepath="$PROJECT_DIR$/tool/tool-gen/tool-gen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-admin/xxl-job.iml" filepath="$PROJECT_DIR$/xxl-job-admin/xxl-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-admin/xxl-job-admin/xxl-job-admin.iml" filepath="$PROJECT_DIR$/xxl-job-admin/xxl-job-admin/xxl-job-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-admin/xxl-job-core/xxl-job-core.iml" filepath="$PROJECT_DIR$/xxl-job-admin/xxl-job-core/xxl-job-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-sample/xxl-job-sample.iml" filepath="$PROJECT_DIR$/xxl-job-sample/xxl-job-sample.iml" />
+    </modules>
+  </component>
+</project>

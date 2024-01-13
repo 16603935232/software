@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ai.mapper.InstituteTeamPublishMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.ai.entity.InstituteTeamPublish">
+        <id column="id" property="id"/>
+        <result column="institute_id" property="instituteId"/>
+        <result column="name" property="name"/>
+        <result column="introduction" property="introduction"/>
+        <result column="head" property="head"/>
+        <result column="domain" property="domain"/>
+        <result column="achievement" property="achievement"/>
+        <result column="cooperation" property="cooperation"/>
+        <result column="official_website" property="officialWebsite"/>
+        <result column="ethic" property="ethic"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, institute_id, name, introduction, head, domain, achievement, cooperation, official_website, ethic, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>

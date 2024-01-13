@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.content.mapper.MonadRecordAndScheduleNotificationMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.content.entity.MonadRecordAndScheduleNotification">
+        <id column="id" property="id"/>
+        <result column="manuscript_id" property="manuscriptId"/>
+        <result column="type" property="type"/>
+        <result column="electronic_manuscript" property="electronicManuscript"/>
+        <result column="manuscript_editor" property="manuscriptEditor"/>
+        <result column="planned_publication_time" property="plannedPublicationTime"/>
+        <result column="required_preliminary _completion_time" property="requiredPreliminary CompletionTime"/>
+        <result column="format" property="format"/>
+        <result column="wide" property="wide"/>
+        <result column="length" property="length"/>
+        <result column="word" property="word"/>
+        <result column="row" property="row"/>
+        <result column="last_page_number" property="lastPageNumber"/>
+        <result column="layout_color" property="layoutColor"/>
+        <result column="original_image" property="originalImage"/>
+        <result column="sheet_number" property="sheetNumber"/>
+        <result column="typographic_units" property="typographicUnits"/>
+        <result column="cooperative_unit_id" property="cooperativeUnitId"/>
+        <result column="price" property="price"/>
+        <result column="layout_design_requirements" property="layoutDesignRequirements"/>
+        <result column="sides_number" property="sidesNumber"/>
+        <result column="color_insert_production unit" property="colorInsertProduction unit"/>
+        <result column="cover_production_unit" property="coverProductionUnit"/>
+        <result column="remark" property="remark"/>
+        <result column="file_list" property="fileList"/>
+        <result column="deleted" property="deleted"/>
+        <result column="create_user_id" property="createUserId"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_user_id" property="updateUserId"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, manuscript_id, type, electronic_manuscript, manuscript_editor, planned_publication_time, required_preliminary _completion_time, format, wide, length, word, row, last_page_number, layout_color, original_image, sheet_number, typographic_units, cooperative_unit_id, price, layout_design_requirements, sides_number, color_insert_production unit, cover_production_unit, remark, file_list, deleted, create_user_id, create_time, update_user_id, update_time
+    </sql>   
+
+
+</mapper>
